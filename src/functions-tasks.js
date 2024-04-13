@@ -96,7 +96,6 @@ function getPolynom(...args) {
     args.forEach((value, index) => {
       result += value * x ** (maxPow - index - 1);
     });
-
     return result;
   };
 }
